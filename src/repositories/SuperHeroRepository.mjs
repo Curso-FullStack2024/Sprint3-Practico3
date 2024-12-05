@@ -54,7 +54,7 @@ class SuperHeroRepository extends IRepository {
     }
     
     async borrarPorNombre(name) {        
-        const heroe= await SuperHero.deleteOne( { nombreSuperHeroe : name })   
+        const heroe= await SuperHero.deleteOne( { nombreSuperheroe : name })   
         return heroe
     }
 

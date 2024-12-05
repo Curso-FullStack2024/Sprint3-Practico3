@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
         return;
     }
       const superheroe = {        
-        nombreSuperHeroe: formAgregar.nombreSuperHeroe.value,
+        nombreSuperheroe: formAgregar.nombreSuperheroe.value,
         nombreReal: formAgregar.nombreReal.value,
         edad: formAgregar.edad.value,
         planetaOrigen: formAgregar.planetaOrigen.value,

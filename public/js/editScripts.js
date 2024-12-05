@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
         }
 
         const superheroe = {
-            nombreSuperHeroe: formEditar.nombreSuperHeroe.value,
+            nombreSuperheroe: formEditar.nombreSuperheroe.value,
             nombreReal: formEditar.nombreReal.value,
             edad: formEditar.edad.value,
             planetaOrigen: formEditar.planetaOrigen.value,
